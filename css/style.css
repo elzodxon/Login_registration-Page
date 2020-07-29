@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+section.user-form {
+    width: 100%;
+    height: 100vh;
+    background-image: url(../img/background.jpg);
+    background-size: cover;
+    background-position: center;
+}
+section.user-form .container {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+section.user-form .container .row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 70%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgba(27, 35, 71, 0.8);
+    box-sizing: border-box;
+    z-index: 10;
+    max-height: 100%;
+    height: 390px;
+}
+section.user-form .container .row .login {
+    width: 75vh;
+    background: #fff;
+    height: 460px;
+}
+section.user-form .container .row .login ul li {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    margin: 80px;
+}
+section.user-form .container .row .login ul li form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+}
+section.user-form .container .row .login ul li h2 {
+    position: absolute;
+    left: 35px;
+}
+section.user-form .container .row .login ul li img {
+    position: absolute;
+    right: 0;
+}
+section.user-form .container .row .register {
+    width: 75vh;
+}
